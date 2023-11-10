@@ -1,0 +1,17 @@
+{
+  "name": "retos_banco_cuscatlan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "author": "Mauricio Cordova",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "description": "",
+  "devDependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.3"
+  }
+}
