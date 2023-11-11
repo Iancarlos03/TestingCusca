@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Retos_BC-master" />
         <module name="PruebaBancoCuscatlan" />
+        <module name="Retos_BC-Final-master-2" />
       </profile>
     </annotationProcessing>
   </component>

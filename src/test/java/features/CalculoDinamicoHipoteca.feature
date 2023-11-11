@@ -1,4 +1,4 @@
-# Author: mauriciokike@gmail.com
+# Author: carlos.escobar0010@gmail.com
 
 Feature:Validacion calculo dinamico de cuota en hipoteca
 

@@ -3,13 +3,12 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2023-11-10T23:27:27.444Z",
+        "start_timestamp": "2023-11-11T20:25:41.696Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d119.0.6045.107)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027LAPTOP-03S2JGAE\u0027, ip: \u0027192.168.0.7\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2973e16e2cefdc51c89628105a763279, get {url\u003dPokemon HU1, HU2, Hu3:     https://dex.pokemonshowdown.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.107, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\carlo\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61168}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61168/devtoo..., se:cdpVersion: 119.0.6045.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2973e16e2cefdc51c89628105a763279\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)\r\n\tat tasks.Hooks.setUp(Hooks.java:32)\r\n",
-              "duration": 3513551300,
-              "status": "failed"
+              "duration": 7166126800,
+              "status": "passed"
             },
             "match": {
               "location": "tasks.Hooks.setUp()"
@@ -23,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 384780200,
+              "duration": 956434200,
               "status": "passed"
             },
             "match": {
@@ -36,8 +35,8 @@
         "steps": [
           {
             "result": {
-              "duration": 998100,
-              "status": "skipped"
+              "duration": 20481898400,
+              "status": "passed"
             },
             "line": 6,
             "name": "realizo ingreso en la pagina pokemonshowdown opcion Pokedex",
@@ -48,7 +47,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 971100200,
+              "status": "passed"
             },
             "line": 7,
             "name": "realizo una busqueda de Pokemon existente",
@@ -59,7 +59,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 351593200,
+              "status": "passed"
             },
             "line": 8,
             "name": "Se muestra el resultado esperado desde opcion Search",
@@ -71,13 +72,12 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-10T23:27:31.518Z",
+        "start_timestamp": "2023-11-11T20:26:11.720Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d119.0.6045.107)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027LAPTOP-03S2JGAE\u0027, ip: \u0027192.168.0.7\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1e0b86e4d1a17414fad42293751b1b40, get {url\u003dPokemon HU1, HU2, Hu3:     https://dex.pokemonshowdown.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.107, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\carlo\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61206/devtoo..., se:cdpVersion: 119.0.6045.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1e0b86e4d1a17414fad42293751b1b40\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)\r\n\tat tasks.Hooks.setUp(Hooks.java:32)\r\n",
-              "duration": 2082801600,
-              "status": "failed"
+              "duration": 5642075900,
+              "status": "passed"
             },
             "match": {
               "location": "tasks.Hooks.setUp()"
@@ -91,7 +91,7 @@
         "after": [
           {
             "result": {
-              "duration": 362074300,
+              "duration": 539369700,
               "status": "passed"
             },
             "match": {
@@ -104,7 +104,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 20520437700,
+              "status": "passed"
             },
             "line": 11,
             "name": "realizo el ingreso en la pagina pokemonshowdown opcion Pokedex",
@@ -115,7 +116,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2171508500,
+              "status": "passed"
             },
             "line": 12,
             "name": "realizo una busqueda de Pokemon existente desde opcion Pokemon",
@@ -126,7 +128,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 438866900,
+              "status": "passed"
             },
             "line": 13,
             "name": "Se muestra el resultado esperado desde opcion Pokemon",
@@ -138,13 +141,12 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-10T23:27:33.979Z",
+        "start_timestamp": "2023-11-11T20:26:41.062Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d119.0.6045.107)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027LAPTOP-03S2JGAE\u0027, ip: \u0027192.168.0.7\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e9176238142ed32f29ae2d33d3de6b18, get {url\u003dPokemon HU1, HU2, Hu3:     https://dex.pokemonshowdown.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.107, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\carlo\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61249/devtoo..., se:cdpVersion: 119.0.6045.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e9176238142ed32f29ae2d33d3de6b18\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)\r\n\tat tasks.Hooks.setUp(Hooks.java:32)\r\n",
-              "duration": 1827888400,
-              "status": "failed"
+              "duration": 5310874100,
+              "status": "passed"
             },
             "match": {
               "location": "tasks.Hooks.setUp()"
@@ -158,7 +160,7 @@
         "after": [
           {
             "result": {
-              "duration": 367971100,
+              "duration": 464754700,
               "status": "passed"
             },
             "match": {
@@ -171,7 +173,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 20610270000,
+              "status": "passed"
             },
             "line": 16,
             "name": "realizo ingreso en pagina pokemonshowdown opcion Pokedex",
@@ -182,7 +185,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6882787200,
+              "status": "passed"
             },
             "line": 17,
             "name": "realizo una busqueda de Pokemon existente desde opcion Pokemon en tabla",
@@ -193,7 +197,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 89225300,
+              "status": "passed"
             },
             "line": 18,
             "name": "encontramos el pokemon validamos que sea correcto",
@@ -205,13 +210,12 @@
         ]
       },
       {
-        "start_timestamp": "2023-11-10T23:27:36.192Z",
+        "start_timestamp": "2023-11-11T20:27:14.426Z",
         "before": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.InvalidArgumentException: invalid argument\n  (Session info: chrome\u003d119.0.6045.107)\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027LAPTOP-03S2JGAE\u0027, ip: \u0027192.168.0.7\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [da3ccfa7b50e89e1834c2294ad04f629, get {url\u003dPokemon HU1, HU2, Hu3:     https://dex.pokemonshowdown.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.107, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\\Users\\carlo\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61287}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61287/devtoo..., se:cdpVersion: 119.0.6045.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: da3ccfa7b50e89e1834c2294ad04f629\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)\r\n\tat tasks.Hooks.setUp(Hooks.java:32)\r\n",
-              "duration": 2010970000,
-              "status": "failed"
+              "duration": 5110285600,
+              "status": "passed"
             },
             "match": {
               "location": "tasks.Hooks.setUp()"
@@ -225,7 +229,7 @@
         "after": [
           {
             "result": {
-              "duration": 320727200,
+              "duration": 492233700,
               "status": "passed"
             },
             "match": {
@@ -238,7 +242,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 20722668600,
+              "status": "passed"
             },
             "line": 21,
             "name": "realizo ingreso en pagina pokemonshowdown en cualquier opcion de busqueda",
@@ -249,7 +254,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1239077800,
+              "status": "passed"
             },
             "line": 22,
             "name": "realizo una busqueda de Pokemon y seleccionar",
@@ -260,7 +266,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 77791828900,
+              "status": "passed"
             },
             "line": 23,
             "name": "validamos las Abilities y Base stats en PokeAPI",

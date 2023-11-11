@@ -1,4 +1,4 @@
-# Author: mauriciokike@gmail.com
+# Author: carlos.escobar0010@gmail.com
 
 Feature:Busqueda de Pokemon validacion de Abilities y Base stats.
 
